@@ -1,11 +1,32 @@
-# Site settings
-title: Sneha Tilak
-email: sneha.tilak26@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Computer Science Graduate Student at Indiana University - Bloomington.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tilaks26.github.io" # the base hostname & protocol for your site
-github_username:  tilaks26
+# Site Settings
+title:               Sneha Tilak
+tagline:             My SGA diaries...
+description:
+baseurl:            #"/Lagrange"
+url:                #"https://tilaks26.github.io"
+github:
+  url:               #"https://tilaks26.github.io/tilaks26.github.io"
+author:
+  name:              "Sneha Tilak"
+  email:             "sneha.tilak26@gmail.com"
+  twitter:           "dotheDrama"
+  instagram:         "bazzinnggaaa"
+  github:            "tilaks26"
+  facebook:          "sneha26"
+  linkedin:          "tilaks"
+navigation:
+- title: About
+  url: /about
+- title: Writing
+  url: /writing
+- title: Contact
+  url: /contact
+
+paginate:            5
+disqus:              #"your-disqus"
 
 # Build settings
-markdown: kramdown
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]

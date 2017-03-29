@@ -1,3 +1,3 @@
-## This is a blog for my course :- CSCI-649: Topics in Systems - Advanced Science Gateway Architectures
+# My Github Pages
 
-https://tilaks26.github.io/
+My SGA blog. For everything you would ever need to know, please visit [the demo site](https://tilaks26.github.io/).
