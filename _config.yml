@@ -1,12 +1,11 @@
 # Site settings
-title: Thanmai Bindi
-email: thanmai.m17@gmail.com
+title: Sneha Tilak
+email: sneha.tilak26@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Computer Science Grad Student at Indiana University, Bloomington
+  Computer Science Graduate Student at Indiana University - Bloomington.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tbindi.github.io" # the base hostname & protocol for your site
-twitter_username: TanmayMBindi
-github_username:  tbindi
+url: "http://tilaks26.github.io" # the base hostname & protocol for your site
+github_username:  tilaks26
 
 # Build settings
 markdown: kramdown
