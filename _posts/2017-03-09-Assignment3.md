@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two Phase Commit Explained"
+title: "Assignment 3"
 categories: journal
 tags: [documentation,sample]
 ---
