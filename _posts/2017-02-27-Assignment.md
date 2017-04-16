@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Assignment 2 : DevOps"
+title: "Assignment 1 and 2"
 categories: journal
 tags: [documentation,sample]
 ---
