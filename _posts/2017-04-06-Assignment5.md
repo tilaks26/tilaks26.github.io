@@ -63,14 +63,6 @@ We can also integrate Liquibase with Maven/Ant/Hibernate/Spring. Refer to [Sampl
 
 ***
 
-## Conclusion:
-
-***
-
-## Associated Github issues:
-
-***
-
 ## Other References:
 - [Manage Database Changes with Liquibase](https://earlyandoften.wordpress.com/2010/06/28/intro-to-liquibase/)
 - [Liquibase Overview](https://www.youtube.com/watch?v=Btk8WTxgH3c)

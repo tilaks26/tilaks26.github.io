@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Final Report"
+title: "Final Assignment"
 categories: journal
 tags: [documentation,sample]
 ---

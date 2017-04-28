@@ -29,7 +29,9 @@ Datical | [datical.com](http://www.datical.com/)
 
 ## Solution Evaluation:
 
-Liquibase is an open-source library which acts as a source control for your database! It's a change management tool built on Java. So, instead of modifying the database by executing SQL statements on it, we can define the changes to be made in XML/YAML/JSON/SQL format files. The file is called changelog.
+###Liquibase
+
+It is an open-source library which acts as a source control for your database! It's a change management tool built on Java. So, instead of modifying the database by executing SQL statements on it, we can define the changes to be made in XML/YAML/JSON/SQL format files. The file is called changelog.
 
 XML format:
 {% highlight xml %}
@@ -63,3 +65,18 @@ SQL format:
 
 We can execute Liquibase as a part of our Maven or Ant build. It will then apply the changeset to the database. In case of any conflicts, it can also handle rollback of the database state.
 
+
+### Flyway
+
+It is an open-source database migration tool. It strongly favors simplicity and convention over configuration. It is based around just 6 basic commands: Migrate, Clean, Info, Validate, Baseline and Repair. Migrations can be written in SQL (database-specific syntax such as PL/SQL, T-SQL,etc is supported) or Java (for advanced data transformations or dealing with LOBs).
+
+***
+
+## Conclusion: 
+
+***
+
+## Other References:
+- [Manage Database Changes with Liquibase](https://earlyandoften.wordpress.com/2010/06/28/intro-to-liquibase/)
+- [Liquibase Overview](https://www.youtube.com/watch?v=Btk8WTxgH3c)
+- [Installing Liquibase](http://monkeyphp.blogspot.com/2014/05/installing-liquibase-311-on-centos-65.html)
