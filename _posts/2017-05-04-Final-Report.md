@@ -44,11 +44,17 @@ For this approach, you have to give a definition of your schema and then any cha
 
 I have discussed about the features in Liquibase in my previous blogs. If the database has an existing system with an existing schema, with the help of the Liquibase CLI we can connect to an existing database and derive its initial model from that. Also, the changelog file can be in one of 4 formats - XML/JSON/YAML/SQL which gives us flexibility. Liquibase provides a jar to migrate an existing DB to all needed XML files automatically. Liquibase can generate automatic rollback commands for many DDL changes.
 
-*** 
-
-## Mechanism:
+### Mechanism:
 ![Liquibase.jpg](../images/Liquibase.jpg)
+
+### Implementation:
+
+Please refer to [Final Assignment](https://tilaks26.github.io/journal/Final-Assignment.html) for the implementation steps.
 
 ***
 
 ## Conclusion:
+
+FlyWay is "lower level" with you specifying exactly the SQL you want to run whereas Liquibase is "higher level" with you specifying what you want changed after which Liquibase computes the SQL. FlyWay manages changes by filename whereas Liquibase manages changes by order in a file. Since Liquibase has a few features that the other toold or even ORM layers like Hibernate don't support. Flyway cannot generate a SQL script from the differences between two databases. Liquibase does not generate a data diff between databases, only the schema. However, it is possible to dump database data as a series of changesets which gives it an edge over FlyWay. Liquibase can also generate a rollback SQL.
+
+I will explore more features of the Liquibase tool in order to formulate an efficient solution for the Database Versioning problem as a GSoC developer.
