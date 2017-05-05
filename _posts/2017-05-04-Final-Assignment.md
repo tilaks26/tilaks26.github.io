@@ -19,6 +19,6 @@ My contributions in each of the above problems can be found on my blogs -
 - [Introduction to Database Versioning and the Possible Solutions](https://tilaks26.github.io/journal/Assignment4.html)
 - [Evaluation of the Solutions for Database Versioning](https://tilaks26.github.io/journal/Assignment5.html)
 
-I have also participated in a few dev-list deiscussions which can be found at - [Discussions](https://tilaks26.github.io/journal/My-Airavata-Dev-List-Discussions.html)
+I have also participated in a few dev-list discussions which can be found at - [Discussions](https://tilaks26.github.io/journal/My-Airavata-Dev-List-Discussions.html)
 
 For my Summer as a GSoC Developer, I would like to concentrate more on the Database Versioning tools discussed in my blog and come up with a solution that is Apache Airavata specific. My GSoC proposal can be found on - [GSoC Proposal](https://docs.google.com/document/d/1GgfPZrv8jA0e-xAyNCYSIhYyofOwjbaNGkFlAhejz_Q/edit?usp=sharing)
