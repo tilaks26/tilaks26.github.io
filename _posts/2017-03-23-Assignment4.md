@@ -23,7 +23,6 @@ Method | Source
 ------- | -------
 Liquibase | [liquibase.org](http://www.liquibase.org/)
 Flyway | [flywaydb.org](https://flywaydb.org/)
-Datical | [datical.com](http://www.datical.com/)
 
 ***
 
