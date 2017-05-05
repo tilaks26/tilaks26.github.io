@@ -5,65 +5,20 @@ categories: journal
 tags: [documentation,sample]
 ---
 
-Assignment 5 Continued...
+CSCI-B 649 - Topics in Systems - Advanced Science Gateway Architectures (Spring 2017)
 
-***
+During my time in the course, I have worked on 2 main problems - 
 
-## Liquibase Implementation:
+- Load Balancing the PHP Laravel Portal
+- Data Management - Database Versioning
 
-### Installing Liquibase:
+My contributions in each of the above problems can be found on my blogs -
 
-{% highlight linux %}
-sudo apt-get update
+- [CI CD Mechanism for the Laravel Portal](https://tilaks26.github.io/journal/Assignment1&2.html)
+- [Two Phase Commit Mechanism](https://tilaks26.github.io/journal/Assignment3.html)
+- [Introduction to Database Versioning and the Possible Solutions](https://tilaks26.github.io/journal/Assignment4.html)
+- [Evaluation of the Solutions for Database Versioning](https://tilaks26.github.io/journal/Assignment5.html)
 
-#Install Java
-sudo apt-get install -y openjdk-7-jre-headless
+I have also participated in a few dev-list deiscussions which can be found at - [Discussions](https://tilaks26.github.io/journal/My-Airavata-Dev-List-Discussions.html)
 
-#Install Maven
-sudo apt-get install maven
-
-#Install MySQL
-sudo apt-get install -y libmysql-java
-
-#Install MySQL Connector for Java
-wget http://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.30.tar.gz
-tar -zxvf mysql-connector-java-5.1.30.tar.gz
-rm mysql-connector-java-5.1.30.tar.gz
-
-#Install Liquibase
-wget https://github.com/liquibase/liquibase/releases/download/liquibase-parent-3.5.3/liquibase-3.5.3-bin.tar.gz
-mkdir /usr/local/liquibase
-tar -zxvf liquibase-3.5.3-bin.tar.gz -C /usr/local/liquibase
-rm liquibase-3.5.3-bin.tar.gz
-sudo chmod +x /usr/local/liquibase/liquibase
-cd /usr/local/liquibase/
-./liquibase --version
-
-#Copy MySQL Connector jar to the liquibase folder
-cp /usr/share/java/mysql-connector-java.jar /usr/local/liquibase/ 
-
-#Set ENV Variables
-export MYSQL_JCONNECTOR=/usr/share/java/mysql-connector-java.jar
-export LIQUIBASE_HOME=/usr/local/liquibase
-export PATH=$PATH:$LIQUIBASE_HOME
-
-#Create the Database
-mysql -u root -p
-mysql> create database example;
-mysql> exit;
-
-#Create Changelog File
-vim databaseChangeLog.sql
-
-#Run Liquibase
-./liquibase --driver=com.mysql.jdbc.Driver --classpath=mysql-connector-java.jar  --changeLogFile=changelog.xml --url="jdbc:mysql://localhost/example" --username=root --password=root update
-{% endhighlight %}
-
-We can also integrate Liquibase with Maven/Ant/Hibernate/Spring. Refer to [Sample Resource](https://github.com/tilaks26/Liquibase_Test) to understand the Maven integration.
-
-***
-
-## Other References:
-- [Manage Database Changes with Liquibase](https://earlyandoften.wordpress.com/2010/06/28/intro-to-liquibase/)
-- [Liquibase Overview](https://www.youtube.com/watch?v=Btk8WTxgH3c)
-- [Installing Liquibase](http://monkeyphp.blogspot.com/2014/05/installing-liquibase-311-on-centos-65.html)
+For my Summer as a GSoC Developer, I would like to concentrate more on the Database Versioning tools discussed in my blog and come up with a solution that is Apache Airavata specific. My GSoC proposal can be found on - [GSoC Proposal](https://docs.google.com/document/d/1GgfPZrv8jA0e-xAyNCYSIhYyofOwjbaNGkFlAhejz_Q/edit?usp=sharing)
